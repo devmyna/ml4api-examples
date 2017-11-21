@@ -37,8 +37,8 @@ public class App {
 
 	public static void main(String[] args) {
 
-		String confFile = "/tmp/convolution.json";
-		String binFile = "/tmp/convolution.bin";
+		String confFile = "/tmp/conf.json";
+		String binFile = "/tmp/weight.bin";
 
 		List<Feature> features = createSampleFeatures();
 
