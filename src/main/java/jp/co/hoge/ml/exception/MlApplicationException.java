@@ -1,4 +1,4 @@
-package jp.co.test.ml.exception;
+package jp.co.hoge.ml.exception;
 
 /**
  * @author Hiroki Ono

@@ -1,4 +1,4 @@
-package jp.co.test.ml;
+package jp.co.hoge.ml;
 
 import java.io.DataOutputStream;
 import java.io.File;
@@ -25,10 +25,10 @@ import org.nd4j.linalg.factory.Nd4j;
 import org.nd4j.linalg.learning.config.Nesterovs;
 import org.nd4j.linalg.lossfunctions.LossFunctions;
 
-import jp.co.test.ml.feature.Feature;
-import jp.co.test.ml.predict.DeepLearningPredictor;
-import jp.co.test.ml.util.vectorize.IndexMap;
-import jp.co.test.ml.util.vectorize.VectorUtil;
+import jp.co.hoge.ml.feature.Feature;
+import jp.co.hoge.ml.predict.DeepLearningPredictor;
+import jp.co.hoge.ml.util.vectorize.IndexMap;
+import jp.co.hoge.ml.util.vectorize.VectorUtil;
 
 /**
  * @author Hiroki Ono
@@ -76,7 +76,7 @@ public class App {
 		
 		System.out.println("Predict");
 		features.parallelStream().forEach(feature ->{
-			double result = dlPredictor.predictCtr(feature);
+			double result = dlPredictor.predict(feature);
 			System.out.println(String.format("predict ctr : %f", result));
 		});
 

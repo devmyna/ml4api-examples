@@ -1,4 +1,4 @@
-package jp.co.test.ml.util.vectorize;
+package jp.co.hoge.ml.util.vectorize;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
@@ -10,10 +10,10 @@ import java.util.stream.Stream;
 
 import org.nd4j.linalg.io.CollectionUtils;
 
-import jp.co.test.ml.exception.MlApplicationException;
-import jp.co.test.ml.util.vectorize.annotation.Csv;
-import jp.co.test.ml.util.vectorize.annotation.DiscreteValue;
-import jp.co.test.ml.util.vectorize.annotation.Range;
+import jp.co.hoge.ml.exception.MlApplicationException;
+import jp.co.hoge.ml.util.vectorize.annotation.Csv;
+import jp.co.hoge.ml.util.vectorize.annotation.DiscreteValue;
+import jp.co.hoge.ml.util.vectorize.annotation.Range;
 
 /**
  * @author Hiroki Ono

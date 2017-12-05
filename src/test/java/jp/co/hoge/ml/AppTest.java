@@ -1,4 +1,4 @@
-package jp.co.test.ml;
+package jp.co.hoge.ml;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

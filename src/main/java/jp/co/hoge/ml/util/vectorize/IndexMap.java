@@ -1,4 +1,4 @@
-package jp.co.test.ml.util.vectorize;
+package jp.co.hoge.ml.util.vectorize;
 
 import it.unimi.dsi.fastutil.ints.Int2IntMap;
 import it.unimi.dsi.fastutil.ints.Int2IntOpenHashMap;

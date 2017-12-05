@@ -1,8 +1,8 @@
-package jp.co.test.ml.feature;
+package jp.co.hoge.ml.feature;
 
-import jp.co.test.ml.util.vectorize.annotation.Csv;
-import jp.co.test.ml.util.vectorize.annotation.DiscreteValue;
-import jp.co.test.ml.util.vectorize.annotation.Range;
+import jp.co.hoge.ml.util.vectorize.annotation.Csv;
+import jp.co.hoge.ml.util.vectorize.annotation.DiscreteValue;
+import jp.co.hoge.ml.util.vectorize.annotation.Range;
 
 /**
  * @author Hiroki Ono

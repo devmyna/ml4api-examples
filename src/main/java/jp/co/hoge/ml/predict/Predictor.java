@@ -1,6 +1,6 @@
-package jp.co.test.ml.predict;
+package jp.co.hoge.ml.predict;
 
-import jp.co.test.ml.feature.Feature;
+import jp.co.hoge.ml.feature.Feature;
 
 /**
  * @author Hiroki Ono

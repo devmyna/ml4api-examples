@@ -1,4 +1,4 @@
-package jp.co.test.ml.util.vectorize.annotation;
+package jp.co.hoge.ml.util.vectorize.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;
@@ -12,8 +12,10 @@ import java.lang.annotation.Target;
 @Inherited
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)
-public @interface Csv {
+public @interface Range {
 
-	String delimiter() default ",";
+	int maxValue() default Integer.MAX_VALUE;
+
+	int minValue() default 0;
 
 }

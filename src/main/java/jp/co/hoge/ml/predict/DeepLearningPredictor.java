@@ -1,4 +1,4 @@
-package jp.co.test.ml.predict;
+package jp.co.hoge.ml.predict;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
@@ -12,10 +12,10 @@ import org.deeplearning4j.nn.params.DefaultParamInitializer;
 import org.nd4j.linalg.api.ndarray.INDArray;
 import org.nd4j.linalg.factory.Nd4j;
 
-import jp.co.test.ml.exception.MlApplicationException;
-import jp.co.test.ml.feature.Feature;
-import jp.co.test.ml.util.vectorize.IndexMap;
-import jp.co.test.ml.util.vectorize.VectorUtil;
+import jp.co.hoge.ml.exception.MlApplicationException;
+import jp.co.hoge.ml.feature.Feature;
+import jp.co.hoge.ml.util.vectorize.IndexMap;
+import jp.co.hoge.ml.util.vectorize.VectorUtil;
 
 /**
  * @author Hiroki Ono
